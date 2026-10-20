@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+  <title id="t">GoWeinerDog</title>
+  <desc id="d">Machine learning lab for students aged 12 to 16: a pixel dachshund learns its way home with real Q-learning in the browser.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#F1E2CC" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#FFF7ED"/>
+    <rect width="1280" height="400" fill="url(#grid)"/>
+
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="72" y="112" fill="#B96E36" font-size="15" font-weight="700" letter-spacing="3">MACHINE LEARNING LAB · AGES 12–16</text>
+      <text x="68" y="198" fill="#35231D" font-size="84" font-weight="800" letter-spacing="-2.5">GoWeinerDog</text>
+      <text x="72" y="242" fill="#6B594A" font-size="23">Teach a pixel dachshund to find its way home —</text>
+      <text x="72" y="272" fill="#6B594A" font-size="23">real Q-learning, right in the browser.</text>
+      <rect x="75" y="307" width="132" height="34" rx="4" fill="#35231D"/><rect x="72" y="304" width="132" height="34" rx="4" fill="#FFFDF8" stroke="#35231D" stroke-width="2"/><text x="138.0" y="326" fill="#35231D" font-size="15" font-weight="700" text-anchor="middle">Q-learning</text>
+      <rect x="223" y="307" width="182" height="34" rx="4" fill="#35231D"/><rect x="220" y="304" width="182" height="34" rx="4" fill="#FFFDF8" stroke="#35231D" stroke-width="2"/><text x="311.0" y="326" fill="#35231D" font-size="15" font-weight="700" text-anchor="middle">Softmax classifier</text>
+      <rect x="421" y="307" width="142" height="34" rx="4" fill="#35231D"/><rect x="418" y="304" width="142" height="34" rx="4" fill="#FFFDF8" stroke="#35231D" stroke-width="2"/><text x="489.0" y="326" fill="#35231D" font-size="15" font-weight="700" text-anchor="middle">Web Workers</text>
+    </g>
+
+    <!-- 6x6 training ground -->
+    <rect x="766" y="46" width="312" height="312" rx="8" fill="#B96E36"/>
+    <rect x="760" y="40" width="312" height="312" rx="8" fill="#35231D"/>
+    <rect x="772" y="52" width="48" height="48" fill="#F7E9D3"/><rect x="820" y="52" width="48" height="48" fill="#F0DDC0"/><rect x="868" y="52" width="48" height="48" fill="#F7E9D3"/><rect x="916" y="52" width="48" height="48" fill="#F0DDC0"/><rect x="964" y="52" width="48" height="48" fill="#F7E9D3"/><rect x="1012" y="52" width="48" height="48" fill="#F0DDC0"/><rect x="772" y="100" width="48" height="48" fill="#F0DDC0"/><rect x="820" y="100" width="48" height="48" fill="#F7E9D3"/><rect x="868" y="100" width="48" height="48" fill="#F0DDC0"/><rect x="916" y="100" width="48" height="48" fill="#F7E9D3"/><rect x="964" y="100" width="48" height="48" fill="#F0DDC0"/><rect x="1012" y="100" width="48" height="48" fill="#F7E9D3"/><rect x="772" y="148" width="48" height="48" fill="#F7E9D3"/><rect x="820" y="148" width="48" height="48" fill="#F0DDC0"/><rect x="868" y="148" width="48" height="48" fill="#F7E9D3"/><rect x="916" y="148" width="48" height="48" fill="#F0DDC0"/><rect x="964" y="148" width="48" height="48" fill="#F7E9D3"/><rect x="1012" y="148" width="48" height="48" fill="#F0DDC0"/><rect x="772" y="196" width="48" height="48" fill="#F0DDC0"/><rect x="820" y="196" width="48" height="48" fill="#F7E9D3"/><rect x="868" y="196" width="48" height="48" fill="#F0DDC0"/><rect x="916" y="196" width="48" height="48" fill="#F7E9D3"/><rect x="964" y="196" width="48" height="48" fill="#F0DDC0"/><rect x="1012" y="196" width="48" height="48" fill="#F7E9D3"/><rect x="772" y="244" width="48" height="48" fill="#F7E9D3"/><rect x="820" y="244" width="48" height="48" fill="#F0DDC0"/><rect x="868" y="244" width="48" height="48" fill="#F7E9D3"/><rect x="916" y="244" width="48" height="48" fill="#F0DDC0"/><rect x="964" y="244" width="48" height="48" fill="#F7E9D3"/><rect x="1012" y="244" width="48" height="48" fill="#F0DDC0"/><rect x="772" y="292" width="48" height="48" fill="#F0DDC0"/><rect x="820" y="292" width="48" height="48" fill="#F7E9D3"/><rect x="868" y="292" width="48" height="48" fill="#F0DDC0"/><rect x="916" y="292" width="48" height="48" fill="#F7E9D3"/><rect x="964" y="292" width="48" height="48" fill="#F0DDC0"/><rect x="1012" y="292" width="48" height="48" fill="#F7E9D3"/>
+    <path d="M796 316 V220 H940 V76 H1036" fill="none" stroke="#B96E36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 11" opacity="0.9"/>
+    <svg x="872.0" y="248.0" width="40" height="40" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M13 8h12v3h5v4h4v6h3v12h-3v3H6v-3H3V22h3v-6h4v-5h3z"/>
+      <path fill="#8A7F74" d="M14 10h10v3h5v4h4v6h2v9h-3v2H8v-2H5v-9h3v-6h4v-4h2z"/>
+      <path fill="#B3A89A" d="M15 12h8v3h-8zM11 16h6v3h-6zM24 17h4v3h-4zM8 23h4v3H8z"/>
+      <path fill="#6B6158" d="M22 25h9v3h-9zM12 29h8v2h-8zM28 21h4v2h-4z"/>
+      <path fill="#365C45" d="M3 36h34v2H3z"/>
+    </svg>
+    <svg x="824.0" y="152.0" width="40" height="40" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M13 8h12v3h5v4h4v6h3v12h-3v3H6v-3H3V22h3v-6h4v-5h3z"/>
+      <path fill="#8A7F74" d="M14 10h10v3h5v4h4v6h2v9h-3v2H8v-2H5v-9h3v-6h4v-4h2z"/>
+      <path fill="#B3A89A" d="M15 12h8v3h-8zM11 16h6v3h-6zM24 17h4v3h-4zM8 23h4v3H8z"/>
+      <path fill="#6B6158" d="M22 25h9v3h-9zM12 29h8v2h-8zM28 21h4v2h-4z"/>
+      <path fill="#365C45" d="M3 36h34v2H3z"/>
+    </svg>
+    <svg x="968.0" y="248.0" width="40" height="40" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M13 8h12v3h5v4h4v6h3v12h-3v3H6v-3H3V22h3v-6h4v-5h3z"/>
+      <path fill="#8A7F74" d="M14 10h10v3h5v4h4v6h2v9h-3v2H8v-2H5v-9h3v-6h4v-4h2z"/>
+      <path fill="#B3A89A" d="M15 12h8v3h-8zM11 16h6v3h-6zM24 17h4v3h-4zM8 23h4v3H8z"/>
+      <path fill="#6B6158" d="M22 25h9v3h-9zM12 29h8v2h-8zM28 21h4v2h-4z"/>
+      <path fill="#365C45" d="M3 36h34v2H3z"/>
+    </svg>
+    <svg x="1016.0" y="104.0" width="40" height="40" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M13 8h12v3h5v4h4v6h3v12h-3v3H6v-3H3V22h3v-6h4v-5h3z"/>
+      <path fill="#8A7F74" d="M14 10h10v3h5v4h4v6h2v9h-3v2H8v-2H5v-9h3v-6h4v-4h2z"/>
+      <path fill="#B3A89A" d="M15 12h8v3h-8zM11 16h6v3h-6zM24 17h4v3h-4zM8 23h4v3H8z"/>
+      <path fill="#6B6158" d="M22 25h9v3h-9zM12 29h8v2h-8zM28 21h4v2h-4z"/>
+      <path fill="#365C45" d="M3 36h34v2H3z"/>
+    </svg>
+    <svg x="785.0" y="257.0" width="22" height="22" viewBox="0 0 20 20" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 2h3v4H5zM12 2h3v4h-3zM1 6h3v4H1zM16 6h3v4h-3zM8 8h4v2h2v2h2v4h-2v2h-3v-1H9v1H6v-2H4v-4h2v-2h2z"/>
+      <path fill="#B96E36" d="M8 11h4v2h2v2h-3v-1H9v1H6v-2h2z"/>
+    </svg>
+    <svg x="833.0" y="209.0" width="22" height="22" viewBox="0 0 20 20" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 2h3v4H5zM12 2h3v4h-3zM1 6h3v4H1zM16 6h3v4h-3zM8 8h4v2h2v2h2v4h-2v2h-3v-1H9v1H6v-2H4v-4h2v-2h2z"/>
+      <path fill="#B96E36" d="M8 11h4v2h2v2h-3v-1H9v1H6v-2h2z"/>
+    </svg>
+    <svg x="929.0" y="161.0" width="22" height="22" viewBox="0 0 20 20" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 2h3v4H5zM12 2h3v4h-3zM1 6h3v4H1zM16 6h3v4h-3zM8 8h4v2h2v2h2v4h-2v2h-3v-1H9v1H6v-2H4v-4h2v-2h2z"/>
+      <path fill="#B96E36" d="M8 11h4v2h2v2h-3v-1H9v1H6v-2h2z"/>
+    </svg>
+    <svg x="977.0" y="65.0" width="22" height="22" viewBox="0 0 20 20" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 2h3v4H5zM12 2h3v4h-3zM1 6h3v4H1zM16 6h3v4h-3zM8 8h4v2h2v2h2v4h-2v2h-3v-1H9v1H6v-2H4v-4h2v-2h2z"/>
+      <path fill="#B96E36" d="M8 11h4v2h2v2h-3v-1H9v1H6v-2h2z"/>
+    </svg>
+    <svg x="874.0" y="202.0" width="36" height="36" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 9h8v3h14V9h8v3h3v7h-3v2h3v7h-3v3h-8v-3H13v3H5v-3H2v-7h3v-2H2v-7h3z"/>
+      <path fill="#B96E36" d="M6 11h6v3h16v-3h6v3h2v4h-3v4h3v4h-2v3h-6v-3H12v3H6v-3H4v-4h3v-4H4v-4h2z"/>
+      <path fill="#E8AD55" d="M7 12h4v4h18v-4h4v3h2v2h-4v6h4v2h-2v3h-4v-4H11v4H7v-3H5v-2h4v-6H5v-2h2z"/>
+      <path fill="#FFF7ED" d="M7 13h3v2H7zM13 17h14v2H13zM30 13h3v2h-3z"/>
+      <path fill="#B96E36" d="M13 21h3v2h-3zM20 20h2v2h-2zM26 22h2v2h-2z"/>
+    </svg>
+    <svg x="1014.0" y="54.0" width="44" height="44" viewBox="0 0 40 40" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M5 16h30v21H5z"/>
+      <path fill="#B96E36" d="M7 17h26v18H7z"/>
+      <path fill="#D79554" d="M7 20h26v3H7zM7 27h26v2H7zM7 33h26v2H7z"/>
+      <path fill="#35231D" d="M17 22h6v2h3v13H14V24h3z"/>
+      <path fill="#704128" d="M18 24h4v2h2v9h-8v-9h2z"/>
+      <path fill="#35231D" d="M17 3h6v3h4v3h4v3h4v3h4v6H1v-6h4v-3h4V9h4V6h4z"/>
+      <path fill="#365C45" d="M18 5h4v3h4v3h4v3h4v3h3v2H3v-2h3v-3h4v-3h4V8h4z"/>
+      <path fill="#577B52" d="M18 7h4v2h-4zM14 10h4v2h-4zM10 13h4v2h-4zM6 16h4v2H6z"/>
+      <path fill="#E8AD55" d="M18 14h4v3h-4z"/>
+      <path fill="#35231D" d="M3 35h34v3H3z"/>
+      <path fill="#FFF7ED" d="M7 19h26v1H7z"/>
+    </svg>
+    <svg x="773.0" y="300.5" width="46" height="31" viewBox="0 0 48 32" shape-rendering="crispEdges">
+      <path fill="#35231D" d="M2 11h3v3h4v-1h21v-3h3V6h6v2h2v3h5v2h2v5h-4v2h-5v2h-3v4h-1v3h-5v-3H16v3h-5v-4H8v-4H5v-3H3v-3H2z"/>
+      <path fill="#B96E36" d="M5 14h2v3h4v-2h21v-4h3V8h3v2h1v3h6v2h1v1h-3v2h-6v3h-3v3H13v-2h-3v-3H7v-1H5z"/>
+      <path fill="#D79554" d="M11 15h18v2H13v3h-3v-2h1zM35 8h3v2h-3zM38 16h5v2h-6v3h-3v-2h4z"/>
+      <path fill="#8C4C2A" d="M13 21h17v3H13zM13 24h2v3h-2zM32 24h2v3h-2z"/>
+      <path fill="#35231D" d="M31 10h4v3h2v7h-2v3h-4v-3h-2v-7h2z"/>
+      <path fill="#704128" d="M32 12h2v3h1v4h-2v2h-1v-2h-1v-5h1z"/>
+      <path fill="#35231D" d="M37 10h2v3h-2zM45 13h3v3h-3zM41 18h3v1h-3z"/>
+      <path fill="#FFF7ED" d="M37 10h1v1h-1z"/>
+      <path fill="#365C45" d="M35 21h3v2h-3z"/>
+      <path fill="#E8AD55" d="M36 23h2v2h-2z"/>
+    </svg>
+
+    <!-- Training cards -->
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <rect x="1102" y="96" width="150" height="92" rx="4" fill="#35231D"/><rect x="1098" y="92" width="150" height="92" rx="4" fill="#FFFDF8" stroke="#35231D" stroke-width="2"/>
+      <text x="1114" y="118" fill="#B96E36" font-size="11" font-weight="800" letter-spacing="2">TRAINING</text>
+      <text x="1114" y="148" fill="#35231D" font-size="22" font-weight="800">800 / 800</text>
+      <rect x="1114" y="160" width="118" height="10" rx="2" fill="#365C45"/>
+      <rect x="1102" y="208" width="150" height="100" rx="4" fill="#35231D"/><rect x="1098" y="204" width="150" height="100" rx="4" fill="#FFFDF8" stroke="#35231D" stroke-width="2"/>
+      <text x="1114" y="230" fill="#B96E36" font-size="13" font-weight="700" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">Q(s, ↑)</text>
+      <text x="1114" y="268" fill="#365C45" font-size="34" font-weight="800">4.3</text>
+      <text x="1174" y="268" fill="#6B594A" font-size="13">was 2.0</text>
+      <text x="1114" y="290" fill="#6B594A" font-size="12">after one step</text>
+    </g>
+  </g>
+</svg>
