@@ -1,12 +1,30 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Hi, I'm Yelzhas. I build web apps and learning tools." width="100%">
+<img src="assets/header.svg" alt="Hi, I'm Yelzhas. I turn ideas into working apps with AI agents." width="100%">
 
 </div>
 
 <br>
 
-I build web apps end to end: database schema and security policies, server logic, interface and deployment. Most of my projects sit where **education meets AI**: a lab where school students train a model themselves, a vocabulary app built on spaced repetition, and a desktop assistant whose memory you control.
+I don't write code by hand, and I don't pretend to. Every repo here was built with AI coding agents: **Claude Code**, **Codex** and **Lovable** write the code. My job is everything that decides whether the result is any good: choosing a real problem, describing exactly what to build, making sure it works, and shipping it to real people.
+
+## How I build
+
+| | Step | From these repos |
+| :---: | --- | --- |
+| **01** | **Pick a real problem** | Volunteers in Kazakhstan needed a verified record of their hours, so I made [Qamqor](https://github.com/YelzhasTem/Qamqor) |
+| **02** | **Write the spec before the code** | [GoWeinerDog](https://github.com/YelzhasTem/GoWeinerDog) started as a [written MVP plan](https://github.com/YelzhasTem/GoWeinerDog/blob/main/docs/MVP_PLAN.md) with a "done when" check for every stage |
+| **03** | **Make the agents prove it works** | 339 unit tests and 87 browser runs in GoWeinerDog; database rules in Qamqor that reject bad data even if someone bypasses the app |
+| **04** | **Audit, fix, ship** | A security audit of [Flashlark](https://github.com/YelzhasTem/flashlark) caught a privacy leak and a fragile account deletion. Both are fixed and live |
+
+### My AI team
+
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Lovable-E8467C?style=for-the-badge" alt="Lovable">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+</p>
 
 ## Featured projects
 
@@ -65,7 +83,7 @@ Desktop AI companion that streams answers from Gemini, keeps chats on your machi
 </tbody>
 </table>
 
-## Tech I work with
+## What my projects run on
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
