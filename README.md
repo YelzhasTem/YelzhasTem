@@ -6,27 +6,9 @@
 
 <br>
 
-I don't write code by hand, and I don't pretend to. Every repo here was built with AI coding agents: **Claude Code**, **Codex** and **Lovable** write the code. My job is everything that decides whether the result is any good: choosing a real problem, describing exactly what to build, making sure it works, and shipping it to real people.
+I turn ideas into working products with AI coding agents. I define the problem, shape the experience, write the requirements, and verify the result — from the first prototype to launch.
 
-## How I build
-
-| | Step | From these repos |
-| :---: | --- | --- |
-| **01** | **Pick a real problem** | Volunteers in Kazakhstan needed a verified record of their hours, so I made [Qamqor](https://github.com/YelzhasTem/Qamqor) |
-| **02** | **Write the spec before the code** | [GoWeinerDog](https://github.com/YelzhasTem/GoWeinerDog) started as a [written MVP plan](https://github.com/YelzhasTem/GoWeinerDog/blob/main/docs/MVP_PLAN.md) with a "done when" check for every stage |
-| **03** | **Make the agents prove it works** | 339 unit tests and 87 browser runs in GoWeinerDog; database rules in Qamqor that reject bad data even if someone bypasses the app |
-| **04** | **Audit, fix, ship** | A security audit of [Flashlark](https://github.com/YelzhasTem/flashlark) caught a privacy leak and a fragile account deletion. Both are fixed and live |
-
-### My AI team
-
-<p>
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
-  <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
-  <img src="https://img.shields.io/badge/Lovable-E8467C?style=for-the-badge" alt="Lovable">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
-</p>
-
-## Featured projects
+## Selected projects
 
 <table>
 <tbody>
@@ -83,6 +65,24 @@ Desktop AI companion that streams answers from Gemini, keeps chats on your machi
 </tbody>
 </table>
 
+## How I build
+
+| | Step | From these repos |
+| :---: | --- | --- |
+| **01** | **Pick a real problem** | Volunteers in Kazakhstan needed a verified record of their hours, so I made [Qamqor](https://github.com/YelzhasTem/Qamqor) |
+| **02** | **Write the spec before the code** | [GoWeinerDog](https://github.com/YelzhasTem/GoWeinerDog) started as a [written MVP plan](https://github.com/YelzhasTem/GoWeinerDog/blob/main/docs/MVP_PLAN.md) with a "done when" check for every stage |
+| **03** | **Make the agents prove it works** | 339 unit tests and 87 browser runs in GoWeinerDog; database rules in Qamqor that reject bad data even if someone bypasses the app |
+| **04** | **Audit, fix, ship** | A security audit of [Flashlark](https://github.com/YelzhasTem/flashlark) caught a privacy leak and a fragile account deletion. Both are fixed and live |
+
+### My AI team
+
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Lovable-E8467C?style=for-the-badge" alt="Lovable">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+</p>
+
 ## What my projects run on
 
 <p>
@@ -105,3 +105,4 @@ Desktop AI companion that streams answers from Gemini, keeps chats on your machi
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </p>
+
