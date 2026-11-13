@@ -1,68 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
-  <title id="t">Hi, I'm Yelzhas</title>
-  <desc id="d">I build full-stack web apps and learning tools: Qamqor, GoWeinerDog, Flashlark and Avri.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title description">
+  <title id="title">Hi, I'm Yelzhas</title>
+  <desc id="description">I turn ideas into useful digital products. Exploring, building, and shipping with AI agents.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0E1015"/>
-      <stop offset="1" stop-color="#191C24"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0E1015"/>
+      <stop offset="1" stop-color="#171B2D"/>
     </linearGradient>
-    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F87171"/><stop offset="1" stop-color="#DC2626"/></linearGradient>
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8F5CFF"/><stop offset="1" stop-color="#5741D8"/></linearGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    <radialGradient id="ambient">
+      <stop stop-color="#7465ED" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#7465ED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere" cx="30%" cy="24%" r="85%">
+      <stop stop-color="#E8E7FF"/>
+      <stop offset="0.3" stop-color="#B8B4FF"/>
+      <stop offset="0.67" stop-color="#7B77E8"/>
+      <stop offset="1" stop-color="#393D88"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C9CBFF" stop-opacity="0.8"/>
+      <stop offset="0.48" stop-color="#8C91EF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#819FF0" stop-opacity="0.65"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#A5ACEE" stroke-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="grid-fade">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.1"/>
+    </linearGradient>
+    <mask id="grid-mask"><rect width="1280" height="320" fill="url(#grid-fade)"/></mask>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
     <clipPath id="frame"><rect width="1280" height="320" rx="24"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1280" height="320" fill="url(#bg)"/>
-    <circle cx="1010" cy="40" r="140" fill="#DC2626" opacity="0.22" filter="url(#blur)"/>
-    <circle cx="1200" cy="300" r="150" fill="#7132F5" opacity="0.32" filter="url(#blur)"/>
-    <circle cx="880" cy="300" r="120" fill="#B96E36" opacity="0.18" filter="url(#blur)"/>
-    <circle cx="1240" cy="60" r="110" fill="#7C8CFF" opacity="0.2" filter="url(#blur)"/>
+    <rect width="1280" height="320" fill="url(#background)"/>
+    <ellipse cx="1080" cy="170" rx="340" ry="290" fill="url(#ambient)"/>
+    <rect x="800" width="480" height="320" fill="url(#grid)" mask="url(#grid-mask)"/>
 
     <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-      <text x="72" y="96" fill="#7C8CFF" font-size="15" font-weight="700" letter-spacing="3">BUILDING WITH AI AGENTS</text>
-      <text x="68" y="172" fill="#F3F4F6" font-size="72" font-weight="800" letter-spacing="-2.5">Hi, I’m Yelzhas</text>
-      <text x="72" y="214" fill="#9DA5B4" font-size="22">I turn ideas into working apps with AI agents — from a</text>
-      <text x="72" y="244" fill="#9DA5B4" font-size="22">volunteer platform to an ML lab for school students.</text>
-      <g font-size="14" font-weight="600" fill="#C9D1D9">
-        <circle cx="78" cy="276" r="5" fill="#EF4444"/><text x="90" y="281">Qamqor</text>
-        <circle cx="176" cy="276" r="5" fill="#D79554"/><text x="188" y="281">GoWeinerDog</text>
-        <circle cx="318" cy="276" r="5" fill="#8F5CFF"/><text x="330" y="281">Flashlark</text>
-        <circle cx="428" cy="276" r="5" fill="#7C8CFF"/><text x="440" y="281">Avri</text>
-      </g>
+      <circle cx="78" cy="67" r="4" fill="#A5B0FF"/>
+      <text x="94" y="72" fill="#A5B0FF" font-size="15" font-weight="700" letter-spacing="2.8">ALWAYS BUILDING</text>
+      <text x="68" y="153" fill="#F3F4F6" font-size="72" font-weight="800" letter-spacing="-2.5">Hi, I’m Yelzhas</text>
+      <text x="72" y="207" fill="#D3D8E3" font-size="26" font-weight="400">I turn ideas into useful digital products.</text>
+      <text x="72" y="246" fill="#9DA7BA" font-size="23" font-weight="400">Exploring, building, and shipping with AI agents.</text>
     </g>
 
-    <!-- Project tiles -->
-    <g filter="url(#shadow)">
-      <rect x="944" y="40" width="108" height="108" rx="26" fill="url(#red)"/>
-      <rect x="1068" y="64" width="108" height="108" rx="26" fill="#FFF7ED"/>
-      <rect x="944" y="164" width="108" height="108" rx="26" fill="url(#purple)"/>
-      <rect x="1068" y="188" width="108" height="108" rx="26" fill="#1D1E21" stroke="#34363C"/>
+    <!-- An open-ended abstract system, independent of any individual project. -->
+    <g fill="none" stroke="url(#orbit)">
+      <ellipse cx="1062" cy="165" rx="148" ry="66" transform="rotate(-28 1062 165)" stroke-width="1.6"/>
+      <ellipse cx="1062" cy="165" rx="138" ry="80" transform="rotate(37 1062 165)" stroke-width="1.2" opacity="0.7"/>
+      <circle cx="1062" cy="165" r="108" stroke-width="1" opacity="0.25"/>
     </g>
-    <g transform="translate(998 98)" fill="#FFFFFF">
-      <path d="M0 22 V-6" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M0 8 C-17 8 -25 -3 -25 -17 C-10 -17 0 -8 0 8 Z"/>
-      <path d="M0 -1 C15 -1 23 -12 23 -26 C8 -26 0 -16 0 -1 Z" opacity="0.88"/>
-    </g>
-    <svg x="1088" y="102" width="68" height="45" viewBox="0 0 48 32" shape-rendering="crispEdges">
-      <path fill="#35231D" d="M2 11h3v3h4v-1h21v-3h3V6h6v2h2v3h5v2h2v5h-4v2h-5v2h-3v4h-1v3h-5v-3H16v3h-5v-4H8v-4H5v-3H3v-3H2z"/>
-      <path fill="#B96E36" d="M5 14h2v3h4v-2h21v-4h3V8h3v2h1v3h6v2h1v1h-3v2h-6v3h-3v3H13v-2h-3v-3H7v-1H5z"/>
-      <path fill="#D79554" d="M11 15h18v2H13v3h-3v-2h1zM35 8h3v2h-3zM38 16h5v2h-6v3h-3v-2h4z"/>
-      <path fill="#8C4C2A" d="M13 21h17v3H13zM13 24h2v3h-2zM32 24h2v3h-2z"/>
-      <path fill="#35231D" d="M31 10h4v3h2v7h-2v3h-4v-3h-2v-7h2z"/>
-      <path fill="#704128" d="M32 12h2v3h1v4h-2v2h-1v-2h-1v-5h1z"/>
-      <path fill="#35231D" d="M37 10h2v3h-2zM45 13h3v3h-3zM41 18h3v1h-3z"/>
-      <path fill="#FFF7ED" d="M37 10h1v1h-1z"/>
-      <path fill="#365C45" d="M35 21h3v2h-3z"/>
-      <path fill="#E8AD55" d="M36 23h2v2h-2z"/>
-    </svg>
-    <g transform="translate(998 218)">
-      <rect x="-22" y="-28" width="46" height="58" rx="9" fill="#FFFFFF" opacity="0.4" transform="rotate(12)"/>
-      <rect x="-25" y="-29" width="46" height="58" rx="9" fill="#FFFFFF" transform="rotate(-6)"/>
-      <text x="-3" y="8" fill="#5741D8" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" transform="rotate(-6)">Aa</text>
-    </g>
-    <path transform="translate(1122 242)" d="M0 -22 C3 -6 6 -3 22 0 C6 3 3 6 0 22 C-3 6 -6 3 -22 0 C-6 -3 -3 -6 0 -22 Z" fill="#7C8CFF"/>
+    <circle cx="1062" cy="165" r="60" fill="#9C8FFF" opacity="0.3" filter="url(#glow)"/>
+    <circle cx="1062" cy="165" r="48" fill="url(#sphere)"/>
+    <path d="M931 202C954 218 1005 211 1053 190C1116 162 1165 126 1182 100" fill="none" stroke="url(#orbit)" stroke-width="1.8"/>
+    <circle cx="1174" cy="109" r="7" fill="#C0C8FF"/>
+    <circle cx="941" cy="211" r="4" fill="#8DA2ED"/>
+    <circle cx="1134" cy="258" r="5" fill="#9A91DC"/>
+    <rect x="0.5" y="0.5" width="1279" height="319" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
   </g>
 </svg>
